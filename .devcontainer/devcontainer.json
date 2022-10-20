@@ -1,0 +1,5 @@
+{
+	"name": "Wagtail course",
+	"context": "..",
+	"dockerFile": "../Dockerfile"
+}
