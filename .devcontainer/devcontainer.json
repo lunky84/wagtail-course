@@ -1,5 +1,12 @@
 {
 	"name": "Wagtail course",
 	"context": "..",
-	"dockerFile": "../Dockerfile"
+	"dockerFile": "../Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"junstyle.vscode-django-support"
+			]
+		}
+	}
 }
