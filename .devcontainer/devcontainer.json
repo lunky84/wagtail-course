@@ -5,7 +5,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"junstyle.vscode-django-support"
+				"almahdi.code-django"
 			]
 		}
 	}
