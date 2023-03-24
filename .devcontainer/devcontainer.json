@@ -1,11 +1,12 @@
 {
 	"name": "Wagtail course",
-	"context": "..",
-	"dockerFile": "../Dockerfile",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "app",
+	"workspaceFolder": "/workspace/",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"almahdi.code-django"
+				"thebarkman.vscode-djaneiro"
 			]
 		}
 	}
