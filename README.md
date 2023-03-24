@@ -21,6 +21,11 @@ python manage.py runserver
 
 View the site at http://127.0.0.1:8000/
 
+Access CMS via http://127.0.0.1:8000/admin
+
+Username: root
+Password: root
+
 ### Make migrations
 
 ```shell
@@ -32,3 +37,10 @@ python manage.py makemigrations polls
 ```shell
 python manage.py migrate
 ```
+
+### Useful notes
+
+Learn Wagtail youtube course
+https://www.youtube.com/playlist?list=PLMQHMcNi6ocsS8Bfnuy_IDgJ4bHRRrvub
+
+You can view the the sqlite3 database by opening the file with dbeaver
